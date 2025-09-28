@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch scss/app.scss css/app.css --load-path=node_modules"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2",
+    "bootstrap": "^5.3.3"
+  }
+}

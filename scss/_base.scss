@@ -1,0 +1,16 @@
+body {
+  font-family: $font-family-sans-serif;
+  background-color: $light;
+  color: $dark;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $primary;
+
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}
